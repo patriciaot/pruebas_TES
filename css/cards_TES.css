@@ -91,6 +91,7 @@
 .card_button--activated.open{
     background-color: black;
     width: 175px;
+    padding-left: 3px;
     border-radius: 40px;
     transition: all 0.5s ease;
     overflow: hidden;
@@ -121,7 +122,7 @@
     transform: translateX(-50%);
 }
 
-/* SEGUNDA CARD */
+                                 /* SEGUNDA CARD */
 
 
 .card_box {
