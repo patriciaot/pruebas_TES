@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3699722a-9875-4874-9d7b-42f07a1c7ce0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/cards_TES.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/cards_TES.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards_TES.html" beforeDir="false" afterPath="$PROJECT_DIR$/cards_TES.html" afterDir="false" />
-    </list>
+    <list default="true" id="3699722a-9875-4874-9d7b-42f07a1c7ce0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +46,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -62,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732738137146</updated>
-      <workItem from="1732738138258" duration="332000" />
+      <workItem from="1732738138258" duration="463000" />
     </task>
     <servers />
   </component>
