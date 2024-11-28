@@ -180,6 +180,61 @@
 
 /*  TERCERA CARD   */
 
+.card_box {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #B4B4B4, #FBFBFB, #DBDBDB, #FCFCFC, #DDDDDD);
+    position: relative;
+    border-radius: 0 0 15px 15px;
+}
+
+
+.card_box span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_box span::before {
+    content: 'Nuevo ingreso';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(to right,#bf953f,#fcf6ba,#b38728,#fbf5b7,#aa771c);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(81, 67, 0);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+    animation: gradient 5s ease infinite;
+    background-size:200%;
+}
+
+.card_box span::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    z-index: -1;
+    box-shadow: 140px -140px #b38728;
+}
+
+
+/*  TERCERA CARD   */
+
 .starting_price--rotating{
     font-size: 23px;
     margin: 0;
@@ -187,37 +242,37 @@
     overflow: hidden;
 
 
-.starting_price--text{
-    display: inline-flex;
-    margin: 0;
-    vertical-align: top;
+    .starting_price--text{
+        display: inline-flex;
+        margin: 0;
+        vertical-align: top;
 
-    .word{
-        position:absolute;
-        display: flex;
-        opacity:0;
+        .word{
+            position:absolute;
+            display: flex;
+            opacity:0;
 
-        .letter{
-            transform-origin: center center 25px;
-            display: inline-block;
-            transform: rotateX(0);
+            .letter{
+                transform-origin: center center 25px;
+                display: inline-block;
+                transform: rotateX(0);
 
-            &.out{
-                transform:
-                rotateX(90deg);
-                transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
-            }  /* &.out */
+                &.out{
+                    transform:
+                            rotateX(90deg);
+                    transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+                }  /* &.out */
 
-            &.in{
-                transition: 0.38s ease;
-            } /* &.in */
+                &.in{
+                    transition: 0.38s ease;
+                } /* &.in */
 
-            &.behind{
-                tansform: rotateX(-90deg);
-            }/* &.behind */
-        } /* letter  */
-    } /* word   */
-} /* starting_price--text  */
+                &.behind{
+                    tansform: rotateX(-90deg);
+                }/* &.behind */
+            } /* letter  */
+        } /* word   */
+    } /* starting_price--text  */
 } /*  starting_price--rotating   */
 
 .starting_price--default{
@@ -227,7 +282,6 @@
 .starting_price--activated{
     color: #27ae60;
 }
-
 
 
 /*  ANIMACIONES  */
@@ -250,5 +304,31 @@
     }
     100% {
         background-position: 0 50%;
+    }
+}
+
+@keyframes greenTopBubbles {
+    0% {
+        background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 40% 90%;
+    }
+    50% {
+        background-position: 0% 80%, 10% 40%, 30% 30%, 22% 50%, 65% 20%;
+    }
+    100% {
+        background-position: 0 70%, 10% 30%, 20% -10%, 50% 40%, 90% 20%;
+        background-size: 0 0;
+    }
+}
+
+@keyframes greenBottomBubbles {
+    0% {
+        background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%;
+    }
+    50% {
+        background-position: 0 80%, 45% 60%, 60% 100%, 75% 70%;
+    }
+    100% {
+        background-position: 0 90%, 45% 70%, 60% 110%, 75% 80%;
+        background-size: 0 0;
     }
 }

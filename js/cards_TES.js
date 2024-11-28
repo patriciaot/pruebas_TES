@@ -54,7 +54,6 @@ words.forEach((word) => {
     });
 });
 
-
 let currentWordIndex = 0;
 let maxWordIndex = words.length - 1;
 words[currentWordIndex].style.opacity = "1";
@@ -63,13 +62,15 @@ let rotateText = () => {
     let currentWord = words[currentWordIndex];
     let nextWord =
         currentWordIndex === maxWordIndex ? words[0] : words[currentWordIndex + 1];
+
     // Rotate out letters of current word
     Array.from(currentWord.children).forEach((letter, i) => {
         setTimeout(() => {
             letter.className = "letter out";
         }, i * 80);
     });
-    // Reveal and rotate in letters of next word
+
+    // Reveal and rotate in letters of the next word
     nextWord.style.opacity = "1";
     Array.from(nextWord.children).forEach((letter, i) => {
         letter.className = "letter behind";
@@ -81,21 +82,28 @@ let rotateText = () => {
     currentWordIndex =
         currentWordIndex === maxWordIndex ? 0 : currentWordIndex + 1;
 
-    // Stop rotation after one cycle
     if (currentWordIndex === maxWordIndex) {
         setTimeout(() => {
-            // Fix activated price
             words[currentWordIndex].style.opacity = "1";
             Array.from(words[currentWordIndex].children).forEach((letter) => {
                 letter.className = "letter in";
             });
-        }, 1000); // Slight delay to finish animation
-        clearInterval(rotationInterval);
+
+            // Alternar clases para efecto spark
+            let rotatingElement = document.querySelector(".starting_price--rotating");
+            rotatingElement.classList.remove("starting_price--default");
+            rotatingElement.classList.add("starting_price--activated");
+
+            setTimeout(() => {
+                rotatingElement.classList.remove("starting_price--activated");
+                rotatingElement.classList.add("starting_price--default");
+            }, 1500); // Duración de estado activado
+        }, 1000);
     }
 };
 
-// Initial delay to show the starting price
-setTimeout(() => {
+// Ciclo para que se ejecute el efecto cada cierto tiempo
+setInterval(() => {
     rotateText();
-    var rotationInterval = setInterval(rotateText, 4000);
-}, 2000); // Adjust the delay (2000ms = 2 seconds)
+}, 4000); // Intervalo de 4 segundos entre efectos
+
