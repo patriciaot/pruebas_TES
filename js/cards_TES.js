@@ -97,7 +97,7 @@ let rotateText = () => {
             setTimeout(() => {
                 rotatingElement.classList.remove("starting_price--activated");
                 rotatingElement.classList.add("starting_price--default");
-            }, 1500); // Duración de estado activado
+            }, 10000); // Duración de estado activado
         }, 1000);
     }
 };
