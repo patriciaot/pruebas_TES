@@ -3,9 +3,10 @@
     margin:20px 10px;
 }
 
-
-.inscription-title h1{
-
+.inscription-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .inscription-title svg{
@@ -14,6 +15,19 @@
     fill: black;
 }
 
+.inscription-title--title{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inscription-title h1{
+
+}
+
+.inscription-date--time__card{
+    display: flex;
+    justify-content: space-between;
+}
 
 .inscription-date--image__auction{
     display: inline-block;
@@ -30,13 +44,24 @@
     border-radius: 5px;
     box-shadow: 0 1px 13px rgba(0,0,0,0.1);
 }
+
+
 .inscription-date--time{
     display: inline-block;
+}
+
+.inscription-date--time__cardClosed{
+    display: flex;
+    flex-direction: column;
 }
 
 .inscription-date--image__closed svg{
     width: 24px;
     height: 24px;
+}
+
+.inscription-date--time__totalPrice{
+    display: flex;
 }
 
 
@@ -190,6 +215,8 @@
     -webkit-box-shadow: 0 0 0px 1000px #292524 inset;
     -webkit-text-fill-color: #ffffff;
 }
+
+
 .Subscribe-btn {
     height: 100%;
     width: 95px;
@@ -248,10 +275,42 @@
     transform: scale(0.9);
 }
 
-.final-inscription--btn button{
-    margin-top: 20px;
-    border: 0;
-    box-shadow: 0 1px 13px rgba(0,0,0,0.1);
-    background-color: #029EDC;
-    color: white;
+.final-inscription--btn{
+ margin-top: 25px;
 }
+
+.final-inscription--btn button{
+    width: 285px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    padding: 15px;
+    background-color: #029EDC;
+    background-image: linear-gradient(to top right, #039be5, #29b6f6);
+    color: #ffffff;
+    font-size: 15px;
+    white-space: nowrap;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    box-shadow:
+            0 4px 6px -1px rgba(0, 0, 0, 0.1),
+            0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: none;
+    transition: all 0.6s ease;
+}
+
+.final-inscription--btn button:hover{
+    box-shadow:
+            0 4px 30px rgba(4, 175, 255, 0.1),
+            0 2px 30px rgba(11, 158, 255, 0.06);
+}
+
+

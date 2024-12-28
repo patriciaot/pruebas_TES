@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3699722a-9875-4874-9d7b-42f07a1c7ce0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/boton-inscripcion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/boton-inscripcion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boton-inscripcion.html" beforeDir="false" afterPath="$PROJECT_DIR$/boton-inscripcion.html" afterDir="false" />
-    </list>
+    <list default="true" id="3699722a-9875-4874-9d7b-42f07a1c7ce0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +81,7 @@
       <workItem from="1732895060065" duration="1083000" />
       <workItem from="1734725117161" duration="2260000" />
       <workItem from="1735227770124" duration="417000" />
-      <workItem from="1735313971755" duration="6608000" />
+      <workItem from="1735313971755" duration="12967000" />
     </task>
     <servers />
   </component>
