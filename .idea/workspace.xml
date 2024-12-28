@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3699722a-9875-4874-9d7b-42f07a1c7ce0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/boton-inscripcion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/boton-inscripcion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards_TES.html" beforeDir="false" afterPath="$PROJECT_DIR$/cards_TES.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/car-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boton-inscripcion.html" beforeDir="false" afterPath="$PROJECT_DIR$/boton-inscripcion.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -38,6 +39,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.boton-inscripcion.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.cards_TES.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -82,6 +84,9 @@
       <workItem from="1732833439459" duration="3121000" />
       <workItem from="1732838555915" duration="56000" />
       <workItem from="1732895060065" duration="1083000" />
+      <workItem from="1734725117161" duration="2260000" />
+      <workItem from="1735227770124" duration="417000" />
+      <workItem from="1735313971755" duration="6608000" />
     </task>
     <servers />
   </component>
