@@ -24,7 +24,20 @@
 
 }
 
-.inscription-date--time__card{
+.inscription-date--card{
+    display: flex;
+    justify-content: center;
+}
+
+.inscription-date--cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.inscription-date--time__auction{
     display: flex;
     justify-content: space-between;
 }
@@ -32,9 +45,9 @@
 .inscription-date--image__auction{
     display: inline-block;
     border-radius: 5px;
-    margin: 10px;
-
+    margin: 10px 10px 10px 0;
 }
+
 
 .inscription-date--image__auction svg{
     width: 60px;
@@ -45,14 +58,16 @@
     box-shadow: 0 1px 13px rgba(0,0,0,0.1);
 }
 
-
-.inscription-date--time{
-    display: inline-block;
+.inscription-date-time__date{
+    margin-top: 10px;
 }
 
-.inscription-date--time__cardClosed{
+.inscription-date--time__auctionClosed{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .inscription-date--image__closed svg{
@@ -60,10 +75,25 @@
     height: 24px;
 }
 
-.inscription-date--time__totalPrice{
+.inscription-date--container{
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
+.inscription-date--time__totalPrice{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inscription-date--time__totalPrice hgroup{
+    margin-right: 15px;
+}
+
+.inscription-conditions--card{
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
 
     /* From Uiverse.io by Galahhad */
     /* checkbox settings 👇 */
