@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3699722a-9875-4874-9d7b-42f07a1c7ce0" name="Changes" comment="" />
+    <list default="true" id="3699722a-9875-4874-9d7b-42f07a1c7ce0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/boton-inscripcion--fontStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/boton-inscripcion--responsividad.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boton-inscripcion.html" beforeDir="false" afterPath="$PROJECT_DIR$/boton-inscripcion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/boton-inscripcion.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/boton-inscripcion.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +89,9 @@
       <workItem from="1735227770124" duration="417000" />
       <workItem from="1735313971755" duration="12967000" />
       <workItem from="1735399960117" duration="6010000" />
+      <workItem from="1735930584123" duration="3786000" />
+      <workItem from="1736004732630" duration="811000" />
+      <workItem from="1736177121059" duration="6560000" />
     </task>
     <servers />
   </component>

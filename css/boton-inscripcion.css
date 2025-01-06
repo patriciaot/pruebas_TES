@@ -1,7 +1,15 @@
+body{
+    font-family: poppins, serif;
+}
+
+
 .cards{
     border-bottom: 1px solid #CBCDDA;
     margin:20px 10px;
 }
+
+
+/* INSCRIPCIÓN */
 
 .inscription-title{
     display: flex;
@@ -10,10 +18,12 @@
 }
 
 .inscription-title svg{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     fill: black;
+    padding-left: 20px;
 }
+
 
 .inscription-title--title{
     margin-left: auto;
@@ -21,8 +31,15 @@
 }
 
 .inscription-title h1{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
+
+/* FECHA DE INSCRIPCIÓN */
 
 .inscription-date--card{
     display: flex;
@@ -33,7 +50,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 30px;
+    padding: 0 20px;
     margin-bottom: 30px;
 }
 
@@ -62,11 +79,20 @@
     margin-top: 10px;
 }
 
+.inscription-date-time__date hgroup{
+    color: #ABACAE;
+}
+
+.inscription-date--time__price data{
+    color: #4B4B4B;
+}
+
+
 .inscription-date--time__auctionClosed{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
     margin-top: 10px;
 }
 
@@ -90,10 +116,28 @@
     margin-right: 15px;
 }
 
+.inscription-date--time__totalPrice data{
+    color: #01A0DD;
+}
+
+/* TÉRMINOS Y CONDICIONES   */
+
+
 .inscription-conditions--card{
     margin-bottom: 30px;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.inscription-conditions--card form{
+color: #616161;
+}
+
+
+/* FINALIZACIÓN   */
 
     /* From Uiverse.io by Galahhad */
     /* checkbox settings 👇 */
@@ -200,7 +244,8 @@
         opacity: 1;
     }
 
- /* FINALIZACIÓN   */
+
+
 
 .inscription-final {
     margin-top: 20px;
