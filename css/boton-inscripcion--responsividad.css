@@ -1,6 +1,47 @@
 @media(min-width:1px){
 
+    /*  INSCRIPCIÓN   */
+
+    .inscription-title{
+        justify-content: flex-start;
+    }
+
+    .inscription-title--image{
+        width: 30%;
+    }
+
+    .inscription-title svg{
+        width:100%;
+        height:47%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-left: 0;
+        padding-right: 47px;
+    }
+
+    .inscription-title--title{
+        width: 51%;
+    }
+
+    .inscription-title--title h1{
+     font-size: 24px;
+    }
     /*FECHA DE INSCRIPCION*/
+
+    .inscription-date-time__date time{
+        display: block;
+        width: 140%;
+        font-size: 13px;
+    }
+
+    .inscription-date-time__date hgroup{
+    display: block;
+    width: 180%;
+    font-size: 12px;
+}
+
 
 
     /*TERMINOS Y CONDICIONES*/
@@ -10,8 +51,16 @@
 }
 
     /*  FINALIZACION  */
+
+    .input-wrapper{
+        width: 86%;
+    }
     .input{
         font-size: 14px;
+    }
+
+    .final-inscription--btn button{
+        width: 290px;
     }
 
 

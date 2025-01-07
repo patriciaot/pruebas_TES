@@ -13,8 +13,8 @@ body{
 
 .inscription-title{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .inscription-title svg{
@@ -25,19 +25,21 @@ body{
 }
 
 
-.inscription-title--title{
+/*.inscription-title--title{
     margin-left: auto;
     margin-right: auto;
     display: flex;
     width: 27%;
-}
+}*/
 
 .inscription-title h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
 }
 
 /* FECHA DE INSCRIPCIÓN */
