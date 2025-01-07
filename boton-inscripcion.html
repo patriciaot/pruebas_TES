@@ -104,13 +104,21 @@ c40 -22 81 -66 94 -101 6 -16 11 -55 11 -88 l0 -59 -830 0 -830 0 0 60 c0 33
     <section class=" cards inscription-conditions">
         <div class="inscription-conditions--card poppins-medium">
         <hgroup>Para poder realizar la compra debes aceptar:</hgroup>
-        <form>
-        <input type="checkbox" id="terms" class="ui-checkbox" name="conditions" value="1">
-        <label for="terms">Términos y condiciones</label><br>
-            <input type="checkbox" id="privacy" class="ui-checkbox" name="conditions" value="2">
-            <label for="privacy">Aviso de privacidad</label><br>
-            <input type="checkbox" id="notifications" class="ui-checkbox" name="conditions" value="3">
-            <label for="notifications">Acepta recibir notificaciones de marketing</label>
+        <form class="inscription-conditions-form">
+            <section class="inscription-conditions--formContent">
+            <section class="inscription-conditions--formContent__terms">
+                <input type="checkbox" id="terms" class="ui-checkbox" name="conditions" value="1">
+                <label for="terms">Términos y condiciones</label>
+            </section>
+            <section class="inscription-conditions--formContent__privacy">
+                <input type="checkbox" id="privacy" class="ui-checkbox" name="conditions" value="2">
+                <label for="privacy">Aviso de privacidad</label>
+            </section>
+            <section class="inscription-conditions--formContent__notifications">
+                <input type="checkbox" id="notifications" class="ui-checkbox" name="conditions" value="3">
+                <label for="notifications">Acepta recibir notificaciones de marketing</label>
+            </section>
+            </section>
         </form>
         </div>
     </section>
@@ -122,7 +130,7 @@ c40 -22 81 -66 94 -101 6 -16 11 -55 11 -88 l0 -59 -830 0 -830 0 0 60 c0 33
         <button class="Subscribe-btn">Aplicar</button>
     </div>
     <div class="final-inscription--btn">
-        <button>Finalizar inscripción</button>
+        <button class="poppins-medium">Finalizar inscripción</button>
     </div>
 </section>
 

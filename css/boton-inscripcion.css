@@ -28,13 +28,14 @@ body{
 .inscription-title--title{
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    width: 27%;
 }
 
 .inscription-title h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -59,12 +60,17 @@ body{
     justify-content: space-between;
 }
 
+.inscription-date--container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .inscription-date--image__auction{
     display: inline-block;
     border-radius: 5px;
     margin: 10px 10px 10px 0;
 }
-
 
 .inscription-date--image__auction svg{
     width: 60px;
@@ -94,6 +100,7 @@ body{
     justify-content: flex-start;
     align-items: flex-end;
     margin-top: 10px;
+    margin-left: 100px;
 }
 
 .inscription-date--image__closed svg{
@@ -101,10 +108,8 @@ body{
     height: 24px;
 }
 
-.inscription-date--container{
+.insciption-date-time__announcement{
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
 }
 
 .inscription-date--time__totalPrice{
@@ -132,8 +137,38 @@ body{
     align-items: center;
 }
 
-.inscription-conditions--card form{
-color: #616161;
+.inscription-conditions--card hgroup{
+    margin-bottom: 14px;
+}
+
+.inscription-conditions-form{
+    color: #616161;
+    display: flex;
+    flex-direction: column;
+}
+.inscription-conditions--formContent label{
+    margin-left: 10px;
+}
+
+.inscription-conditions--formContent__terms{
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.inscription-conditions--formContent__privacy{
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.inscription-conditions--formContent__notifications{
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 
@@ -258,14 +293,14 @@ color: #616161;
 
 /* From Uiverse.io by vinodjangid07 */
 .input-wrapper {
-    width: fit-content;
-    height: 45px;
-    border-radius: 20px;
-    border: 1px solid #CBCDDA;
-    padding: 5px;
-    box-sizing: content-box;
     display: flex;
     align-items: center;
+    width: 21%;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #CBCDDA;
+    padding: 7px 10px 7px 5px;
+    box-sizing: content-box;
     background-color: white;
 }
 
@@ -276,15 +311,14 @@ color: #616161;
     transition: all 0.3s;
 }
 .input {
-    max-width: 180px;
+    width: 100%;
     height: 100%;
     border: none;
     outline: none;
     border-radius: 20px;
-    padding-left: 15px;
+    padding: 0 14px 0 9px;
     background-color: white;
     color: black;
-    font-size: 1em;
 }
 .input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px #292524 inset;
@@ -294,18 +328,20 @@ color: #616161;
 
 .Subscribe-btn {
     height: 100%;
-    width: 95px;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
-    border-radius: 15px;
+    border-radius: 8px;
     color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 1px;
     cursor: pointer;
     background-color: #ffffff;
     box-shadow: 0 1px 13px rgba(0,0,0,0.1);
     font-weight: 500;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     transition: all 0.3s;
 }
@@ -355,8 +391,10 @@ color: #616161;
 }
 
 .final-inscription--btn button{
-    width: 285px;
+    width: 310px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     position: relative;
     padding: 15px;
@@ -366,13 +404,11 @@ color: #616161;
     font-size: 15px;
     white-space: nowrap;
     line-height: 1.25rem;
-    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2px;
     cursor: pointer;
     vertical-align: middle;
-    align-items: center;
-    justify-content: center;
     border-radius: 0.5rem;
     gap: 0.75rem;
     box-shadow:
