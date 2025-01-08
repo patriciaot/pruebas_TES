@@ -41,22 +41,42 @@
     width: 180%;
     font-size: 12px;
 }
-
+    .insciption-date-time__announcement h6{
+        font-size: 9px;
+    }
 
 
     /*TERMINOS Y CONDICIONES*/
 
-.inscription-conditions--card hgroup{
-    font-size: 20px;
+    .inscription-conditions--card{
+        padding: 0 16px;
+    }
+
+    .inscription-conditions--card hgroup{
+    font-size: 14px;
 }
+    .inscription-conditions-form{
+     font-size: 11px;
+    }
 
     /*  FINALIZACION  */
 
+    .inscription-final{
+        margin-top: 91px;
+    }
+
     .input-wrapper{
         width: 86%;
+        height: 33px;
     }
+
     .input{
-        font-size: 14px;
+        font-size: 13px;
+    }
+
+    .Subscribe-btn{
+        width: 96px;
+        font-size: 12px;
     }
 
     .final-inscription--btn button{
@@ -64,6 +84,17 @@
     }
 
 
+}
+
+@media(min-width:340px){
+    .input-wrapper{
+        width: 82%;
+    }
+
+    .Subscribe-btn{
+        width: 98px;
+        height: 112%;
+    }
 }
 
 
