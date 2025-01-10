@@ -14,7 +14,7 @@ body{
 .inscription-title{
     display: flex;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
 }
 
 .inscription-title svg{
@@ -111,7 +111,8 @@ body{
 }
 
 .insciption-date-time__announcement{
-    display: flex;
+    display: block;
+    width: 90%;
 }
 
 .inscription-date--time__totalPrice{
@@ -329,7 +330,7 @@ body{
 
 
 .Subscribe-btn {
-    height: 100%;
+    height: 108%;
     width: 145px;
     display: flex;
     align-items: center;

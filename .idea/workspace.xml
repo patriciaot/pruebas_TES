@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3699722a-9875-4874-9d7b-42f07a1c7ce0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boton-inscripcion.html" beforeDir="false" afterPath="$PROJECT_DIR$/boton-inscripcion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/boton-inscripcion--responsividad.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/boton-inscripcion--responsividad.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/boton-inscripcion.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/boton-inscripcion.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,8 @@
       <workItem from="1736177121059" duration="6796000" />
       <workItem from="1736263357862" duration="644000" />
       <workItem from="1736266508310" duration="10055000" />
-      <workItem from="1736350194750" duration="2213000" />
+      <workItem from="1736350194750" duration="2656000" />
+      <workItem from="1736436382068" duration="8663000" />
     </task>
     <servers />
   </component>
