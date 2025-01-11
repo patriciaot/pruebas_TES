@@ -111,6 +111,23 @@
 }
 
 
+@media(min-width:360px){
+
+    .inscription-title--image{
+        width: 28%;
+    }
+
+    .inscription-title svg{
+        width: initial;
+        height: initial
+    }
+
+    .inscription-title--title h1{
+        font-size: 26px;
+    }
+}
+
+
 @media (min-width: 375px){
 
     /* INSCRIPCION */
@@ -162,14 +179,97 @@
 
 }
 
+@media(min-width: 425px){
+
+    /*  INSCRIPCION    */
+
+    .inscription-title svg{
+        width: initial;
+        height: initial;
+        padding-right: 66px;
+    }
+
+    .inscription-title--title h1{
+        font-size: 32px;
+    }
+
+    /*  FECHA DE INSCRIPCION */
+
+    .inscription-date-time__date time{
+        font-size: 21px;
+    }
+
+    .inscription-date-time__date hgroup{
+        font-size: 13px;
+    }
+
+    .inscription-date--time__price data{
+        font-size: 18px;
+    }
+
+    .insciption-date-time__announcement h6{
+     font-size: 10px;
+    }
+
+    .inscription-date--time__totalPrice{
+        font-size: 20px;
+    }
 
 
+    /* TERMINAS Y CONDICIONES  */
 
+    .inscription-conditions--card hgroup{
+        font-size: 16px;
+    }
 
+    .inscription-conditions-form{
+        font-size: 14px;
+    }
+
+    /*  FINALIZACION   */
+
+    .input{
+        font-size: 13.5px;
+    }
+
+}
+
+@media(min-width: 501px){
+
+    .inscription-title--image{
+        width: 26%;
+    }
+
+}
+
+@media(min-width: 502px){
+
+    .inscription-title svg{
+        width: 130px;
+    }
+
+}
 
 @media(min-width:1024px){
 
+    /*  INSCRIPCION  */
+
+    .inscription-title--title h1{
+        font-size: 39px;
+    }
+
+
     /*FECHA DE INSCRIPCION*/
+
+    .inscription-date--cardContent{
+        width: 512px;
+    }
+
+
+    .inscription-title--image{
+        width: 24%;
+    }
+
     .inscription-date-time__date time{
         font-size: 22px;
     }
@@ -183,7 +283,7 @@
     }
 
     .insciption-date-time__announcement h6{
-        font-size: 10px;
+        font-size: 13px;
     }
     .inscription-date--time__totalPrice{
         font-size: 20px;
