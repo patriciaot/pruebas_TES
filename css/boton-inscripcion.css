@@ -354,6 +354,12 @@ body{
 .input-wrapper:active .icon {
     transform: scale(1.3);
 }
+
+.input:focus + .Subscribe-btn {
+    background-color: #029EDC;
+    color: #fff;
+}
+
 .Subscribe-btn:hover {
     color: white;
     background: #029EDC;
