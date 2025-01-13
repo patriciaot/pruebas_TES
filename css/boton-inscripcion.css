@@ -25,13 +25,6 @@ body{
 }
 
 
-/*.inscription-title--title{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    width: 27%;
-}*/
-
 .inscription-title h1{
     display: flex;
     align-items: center;
@@ -281,6 +274,15 @@ body{
         transition: none;
         opacity: 1;
     }
+
+.ui-checkbox + label {
+    color: #616161;
+    cursor: pointer;
+}
+
+.ui-checkbox:checked + label {
+    color: black;
+}
 
 
 
